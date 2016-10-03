@@ -102,9 +102,10 @@ goto menu
 
 :credits
 cls
-echo iBoot v1 by TheBeastGamer25 (Riley Morycz)
+echo iBoot v1 by TheBeastGamer25
 echo.
-echo This project woudn't have been possible without libimobiledevice and its creators. Many thanks to them! <3
+echo This project woudn't have been possbile without libimobiledevice and its creators.
+echo Many thanks to them. <3
 echo.
 echo Press any key to go back to the menu.
 pause>nul
