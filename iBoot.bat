@@ -68,7 +68,6 @@ goto menu
 set /p restoreOrUpdate= Would you like to restore your device to the latest firmware, or update your device to it? (restore or update): 
 if '%restoreOrUpdate%' == 'restore' tools\idevicerestore -l -e
 if '%restoreOrUpdate%' == 'update' tools\idevicerestore -l
-cls
 
 del /f /s /q *.ipsw>nul
 del /f /s /q *.ipsw.lock>nul
